@@ -44,6 +44,12 @@ public class MaxBinaryTreeDepth {
         return level;
     }
 
+    public static int maxDepthInOrder(TreeNode root) {
+        if(root == null)
+            return 0;
+        return Math.max(maxDepthInOrder(root.left), maxDepthInOrder(root.right)) + 1;
+    }
+
     public static void main(String[] args) {
         TreeNode nine = new TreeNode(9, null, null);
         TreeNode fifteen = new TreeNode(15, null, null);
@@ -52,5 +58,6 @@ public class MaxBinaryTreeDepth {
         TreeNode three = new TreeNode(3, nine, twenty);
 
         System.out.printf("The maximum depth is: %d%n", maxDepthLevelOrder(three));
+        System.out.printf("The maximum depth is: %d%n", maxDepthInOrder(three));
     }
 }
