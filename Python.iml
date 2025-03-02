@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/100_same_tree" isTestSource="false" packagePrefix="za.ca.shyftit" />
+      <sourceFolder url="file://$MODULE_DIR$/101_symmetric_tree" isTestSource="false" packagePrefix="za.ca.shyftit" />
+      <sourceFolder url="file://$MODULE_DIR$/104_maximum_depth_of_binary_tree" isTestSource="false" packagePrefix="za.ca.shyftit" />
+      <sourceFolder url="file://$MODULE_DIR$/88_merge_sorted_array" isTestSource="false" packagePrefix="za.ca.shyftit" />
+      <sourceFolder url="file://$MODULE_DIR$/94_binary_tree_inorder_traversal" isTestSource="false" packagePrefix="za.ca.shyftit" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
